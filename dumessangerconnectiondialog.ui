@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DuMessangerConnectionDialog</class>
+ <widget class="QDialog" name="DuMessangerConnectionDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>384</width>
+    <height>137</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QLabel" name="label">
+       <property name="text">
+        <string>Hostname:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="hostname">
+       <property name="inputMask">
+        <string/>
+       </property>
+       <property name="text">
+        <string>localhost</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <item>
+      <widget class="QLabel" name="label_2">
+       <property name="text">
+        <string>puerto:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QSpinBox" name="port">
+       <property name="suffix">
+        <string/>
+       </property>
+       <property name="prefix">
+        <string/>
+       </property>
+       <property name="maximum">
+        <number>999999999</number>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_3">
+     <item>
+      <spacer name="horizontalSpacer">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pb_accepter">
+       <property name="font">
+        <font>
+         <family>Courier New</family>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+   border-style: solid;
+   border-width: 2px;
+   border-color: #9999aa;
+   border-radius: 10px;
+   color: black;
+	background-color : qlineargradient(spread:pad, x1:0.07, y1:0.159091, x2:0.552174, y2:0.705, stop:0 rgba(254, 84, 0, 255), stop:1 rgba(255, 255, 255, 255))
+   
+}
+QPushButton:enabled {
+      background-color:qlineargradient(spread:pad, x1:0.07, y1:0.159091, x2:0.552174, y2:0.705, stop:0 rgba(254, 84, 0, 255), stop:1 rgba(255, 255, 255, 255)) ;
+      color: black;
+}
+ QPustButton:pressed{
+    background-color:#c24e4e;
+      color: white;
+}
+QPushButton:hover:!pressed{
+     background-color: #c24e4e ;
+      color: white;
+}
+ QPushButton:disabled{
+     background-color: #c24e4e ;
+      color: white;
+}
+
+</string>
+       </property>
+       <property name="text">
+        <string>accepter</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pb_cancel">
+       <property name="font">
+        <font>
+         <family>Courier New</family>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+   border-style: solid;
+   border-width: 2px;
+   border-color: #9999aa;
+   border-radius: 10px;
+   color: black;
+	background-color : qlineargradient(spread:pad, x1:0.07, y1:0.159091, x2:0.552174, y2:0.705, stop:0 rgba(254, 84, 0, 255), stop:1 rgba(255, 255, 255, 255))
+   
+}
+QPushButton:enabled {
+      background-color:qlineargradient(spread:pad, x1:0.07, y1:0.159091, x2:0.552174, y2:0.705, stop:0 rgba(254, 84, 0, 255), stop:1 rgba(255, 255, 255, 255)) ;
+      color: black;
+}
+ QPustButton:pressed{
+    background-color:#c24e4e;
+      color: white;
+}
+QPushButton:hover:!pressed{
+     background-color: #c24e4e ;
+      color: white;
+}
+ QPushButton:disabled{
+     background-color: #c24e4e ;
+      color: white;
+}
+
+</string>
+       </property>
+       <property name="text">
+        <string>cancel</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,955 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1123</width>
+    <height>612</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QTabWidget" name="Employer">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>1101</width>
+     <height>591</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>ArrowCursor</cursorShape>
+   </property>
+   <property name="tabletTracking">
+    <bool>false</bool>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="currentIndex">
+    <number>2</number>
+   </property>
+   <property name="documentMode">
+    <bool>false</bool>
+   </property>
+   <property name="tabsClosable">
+    <bool>false</bool>
+   </property>
+   <property name="movable">
+    <bool>false</bool>
+   </property>
+   <property name="tabBarAutoHide">
+    <bool>false</bool>
+   </property>
+   <widget class="QWidget" name="Ajouter">
+    <attribute name="title">
+     <string>Ajouter Chercheur</string>
+    </attribute>
+    <widget class="QGroupBox" name="groupBox">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>1121</width>
+       <height>611</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Comic Sans MS</family>
+       <pointsize>8</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+       <underline>false</underline>
+      </font>
+     </property>
+     <property name="tabletTracking">
+      <bool>false</bool>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="title">
+      <string>AJOUTER</string>
+     </property>
+     <property name="flat">
+      <bool>false</bool>
+     </property>
+     <property name="checkable">
+      <bool>false</bool>
+     </property>
+     <widget class="QPushButton" name="pb_ajouter">
+      <property name="geometry">
+       <rect>
+        <x>750</x>
+        <y>180</y>
+        <width>241</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Courier New</family>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+   border-style: solid;
+   border-width: 2px;
+   border-color: #9999aa;
+   border-radius: 10px;
+   color: black;
+	background-color : qlineargradient(spread:pad, x1:0.07, y1:0.159091, x2:0.552174, y2:0.705, stop:0 rgba(254, 84, 0, 255), stop:1 rgba(255, 255, 255, 255))
+   
+}
+QPushButton:enabled {
+      background-color:qlineargradient(spread:pad, x1:0.07, y1:0.159091, x2:0.552174, y2:0.705, stop:0 rgba(254, 84, 0, 255), stop:1 rgba(255, 255, 255, 255)) ;
+      color: black;
+}
+ QPustButton:pressed{
+    background-color:#c24e4e;
+      color: white;
+}
+QPushButton:hover:!pressed{
+     background-color: #c24e4e ;
+      color: white;
+}
+ QPushButton:disabled{
+     background-color: #c24e4e ;
+      color: white;
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>AJOUTER</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pb_modifier">
+      <property name="geometry">
+       <rect>
+        <x>750</x>
+        <y>280</y>
+        <width>241</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Courier New</family>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+   border-style: solid;
+   border-width: 2px;
+   border-color: #9999aa;
+   border-radius: 10px;
+   color: black;
+	background-color : qlineargradient(spread:pad, x1:0.07, y1:0.159091, x2:0.552174, y2:0.705, stop:0 rgba(254, 84, 0, 255), stop:1 rgba(255, 255, 255, 255))
+   
+}
+QPushButton:enabled {
+      background-color:qlineargradient(spread:pad, x1:0.07, y1:0.159091, x2:0.552174, y2:0.705, stop:0 rgba(254, 84, 0, 255), stop:1 rgba(255, 255, 255, 255)) ;
+      color: black;
+}
+ QPustButton:pressed{
+    background-color:#c24e4e;
+      color: white;
+}
+QPushButton:hover:!pressed{
+     background-color: #c24e4e ;
+      color: white;
+}
+ QPushButton:disabled{
+     background-color: #c24e4e ;
+      color: white;
+}
+
+</string>
+      </property>
+      <property name="text">
+       <string>MODIFIER</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="layoutWidget">
+      <property name="geometry">
+       <rect>
+        <x>272</x>
+        <y>84</y>
+        <width>173</width>
+        <height>361</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <item>
+        <widget class="QLineEdit" name="le_id"/>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="le_nom"/>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="le_prenom"/>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="le_mail"/>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="le_adresse"/>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="le_num"/>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="le_diplome"/>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="le_salaire"/>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="layoutWidget">
+      <property name="geometry">
+       <rect>
+        <x>113</x>
+        <y>84</y>
+        <width>153</width>
+        <height>351</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <widget class="QLabel" name="ID">
+         <property name="font">
+          <font>
+           <family>Arial</family>
+           <pointsize>10</pointsize>
+           <weight>50</weight>
+           <bold>false</bold>
+           <underline>false</underline>
+          </font>
+         </property>
+         <property name="text">
+          <string>ID:</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="Nom">
+         <property name="font">
+          <font>
+           <family>Arial</family>
+           <pointsize>10</pointsize>
+           <weight>50</weight>
+           <bold>false</bold>
+           <underline>false</underline>
+          </font>
+         </property>
+         <property name="text">
+          <string>NOM:</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_5">
+         <property name="font">
+          <font>
+           <family>Arial</family>
+           <pointsize>10</pointsize>
+           <weight>50</weight>
+           <bold>false</bold>
+           <underline>false</underline>
+          </font>
+         </property>
+         <property name="text">
+          <string>PRENOM:</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_6">
+         <property name="font">
+          <font>
+           <family>Arial</family>
+           <pointsize>10</pointsize>
+           <weight>50</weight>
+           <bold>false</bold>
+           <underline>false</underline>
+          </font>
+         </property>
+         <property name="text">
+          <string>MAIL:</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_7">
+         <property name="font">
+          <font>
+           <family>Arial</family>
+           <pointsize>10</pointsize>
+           <weight>50</weight>
+           <bold>false</bold>
+           <underline>false</underline>
+          </font>
+         </property>
+         <property name="text">
+          <string>ADRESSE:</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_8">
+         <property name="font">
+          <font>
+           <family>Arial</family>
+           <pointsize>10</pointsize>
+           <weight>50</weight>
+           <bold>false</bold>
+           <underline>false</underline>
+          </font>
+         </property>
+         <property name="text">
+          <string>NUM TELEPHONE:</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_9">
+         <property name="font">
+          <font>
+           <family>Arial</family>
+           <pointsize>10</pointsize>
+           <weight>50</weight>
+           <bold>false</bold>
+           <underline>false</underline>
+          </font>
+         </property>
+         <property name="text">
+          <string>DIPLOME ACQUIS:</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_10">
+         <property name="font">
+          <font>
+           <family>Arial</family>
+           <pointsize>10</pointsize>
+           <weight>50</weight>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>SALAIRE:</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="Gerer">
+    <attribute name="title">
+     <string>Gerer  Chercheur</string>
+    </attribute>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>170</y>
+       <width>161</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+       <pointsize>10</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+       <underline>false</underline>
+      </font>
+     </property>
+     <property name="text">
+      <string>Supprimer par ID:</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="le_id_sup">
+     <property name="geometry">
+      <rect>
+       <x>230</x>
+       <y>170</y>
+       <width>181</width>
+       <height>31</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pb_supprimer">
+     <property name="geometry">
+      <rect>
+       <x>440</x>
+       <y>170</y>
+       <width>171</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Courier New</family>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+   border-style: solid;
+   border-width: 2px;
+   border-color: #9999aa;
+   border-radius: 10px;
+   color: black;
+	background-color : qlineargradient(spread:pad, x1:0.07, y1:0.159091, x2:0.552174, y2:0.705, stop:0 rgba(254, 84, 0, 255), stop:1 rgba(255, 255, 255, 255))
+   
+}
+QPushButton:enabled {
+      background-color:qlineargradient(spread:pad, x1:0.07, y1:0.159091, x2:0.552174, y2:0.705, stop:0 rgba(254, 84, 0, 255), stop:1 rgba(255, 255, 255, 255)) ;
+      color: black;
+}
+ QPustButton:pressed{
+    background-color:#c24e4e;
+      color: white;
+}
+QPushButton:hover:!pressed{
+     background-color: #c24e4e ;
+      color: white;
+}
+ QPushButton:disabled{
+     background-color: #c24e4e ;
+      color: white;
+}
+
+</string>
+     </property>
+     <property name="text">
+      <string>Supprimer</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>270</y>
+       <width>141</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+       <pointsize>10</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+       <underline>false</underline>
+      </font>
+     </property>
+     <property name="text">
+      <string>Chercher par ID:</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="LineChercher">
+     <property name="geometry">
+      <rect>
+       <x>230</x>
+       <y>270</y>
+       <width>181</width>
+       <height>31</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QTableView" name="tab_employe">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>330</y>
+       <width>1021</width>
+       <height>221</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pb_mod">
+     <property name="geometry">
+      <rect>
+       <x>440</x>
+       <y>270</y>
+       <width>171</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Courier New</family>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+   border-style: solid;
+   border-width: 2px;
+   border-color: #9999aa;
+   border-radius: 10px;
+   color: black;
+	background-color : qlineargradient(spread:pad, x1:0.07, y1:0.159091, x2:0.552174, y2:0.705, stop:0 rgba(254, 84, 0, 255), stop:1 rgba(255, 255, 255, 255))
+   
+}
+QPushButton:enabled {
+      background-color:qlineargradient(spread:pad, x1:0.07, y1:0.159091, x2:0.552174, y2:0.705, stop:0 rgba(254, 84, 0, 255), stop:1 rgba(255, 255, 255, 255)) ;
+      color: black;
+}
+ QPustButton:pressed{
+    background-color:#c24e4e;
+      color: white;
+}
+QPushButton:hover:!pressed{
+     background-color: #c24e4e ;
+      color: white;
+}
+ QPushButton:disabled{
+     background-color: #c24e4e ;
+      color: white;
+}
+
+</string>
+     </property>
+     <property name="text">
+      <string>Modifier</string>
+     </property>
+    </widget>
+    <widget class="QWidget" name="layoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>870</x>
+       <y>30</y>
+       <width>191</width>
+       <height>311</height>
+      </rect>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_2">
+      <item row="3" column="0">
+       <widget class="QPushButton" name="BoutonTrier">
+        <property name="font">
+         <font>
+          <family>Courier New</family>
+          <pointsize>10</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+   border-style: solid;
+   border-width: 2px;
+   border-color: #9999aa;
+   border-radius: 10px;
+   color: black;
+	background-color : qlineargradient(spread:pad, x1:0.07, y1:0.159091, x2:0.552174, y2:0.705, stop:0 rgba(254, 84, 0, 255), stop:1 rgba(255, 255, 255, 255))
+   
+}
+QPushButton:enabled {
+      background-color:qlineargradient(spread:pad, x1:0.07, y1:0.159091, x2:0.552174, y2:0.705, stop:0 rgba(254, 84, 0, 255), stop:1 rgba(255, 255, 255, 255)) ;
+      color: black;
+}
+ QPustButton:pressed{
+    background-color:#c24e4e;
+      color: white;
+}
+QPushButton:hover:!pressed{
+     background-color: #c24e4e ;
+      color: white;
+}
+ QPushButton:disabled{
+     background-color: #c24e4e ;
+      color: white;
+}
+
+</string>
+        </property>
+        <property name="text">
+         <string>Trier par Id</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="0">
+       <widget class="QPushButton" name="pb_tri_nom">
+        <property name="font">
+         <font>
+          <family>Courier New</family>
+          <pointsize>10</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+   border-style: solid;
+   border-width: 2px;
+   border-color: #9999aa;
+   border-radius: 10px;
+   color: black;
+	background-color : qlineargradient(spread:pad, x1:0.07, y1:0.159091, x2:0.552174, y2:0.705, stop:0 rgba(254, 84, 0, 255), stop:1 rgba(255, 255, 255, 255))
+   
+}
+QPushButton:enabled {
+      background-color:qlineargradient(spread:pad, x1:0.07, y1:0.159091, x2:0.552174, y2:0.705, stop:0 rgba(254, 84, 0, 255), stop:1 rgba(255, 255, 255, 255)) ;
+      color: black;
+}
+ QPustButton:pressed{
+    background-color:#c24e4e;
+      color: white;
+}
+QPushButton:hover:!pressed{
+     background-color: #c24e4e ;
+      color: white;
+}
+ QPushButton:disabled{
+     background-color: #c24e4e ;
+      color: white;
+}
+
+</string>
+        </property>
+        <property name="text">
+         <string>Trier par Nom</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QPushButton" name="pb_statistique">
+        <property name="font">
+         <font>
+          <family>Courier New</family>
+          <pointsize>10</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+   border-style: solid;
+   border-width: 2px;
+   border-color: #9999aa;
+   border-radius: 10px;
+   color: black;
+	background-color : qlineargradient(spread:pad, x1:0.07, y1:0.159091, x2:0.552174, y2:0.705, stop:0 rgba(254, 84, 0, 255), stop:1 rgba(255, 255, 255, 255))
+   
+}
+QPushButton:enabled {
+      background-color:qlineargradient(spread:pad, x1:0.07, y1:0.159091, x2:0.552174, y2:0.705, stop:0 rgba(254, 84, 0, 255), stop:1 rgba(255, 255, 255, 255)) ;
+      color: black;
+}
+ QPustButton:pressed{
+    background-color:#c24e4e;
+      color: white;
+}
+QPushButton:hover:!pressed{
+     background-color: #c24e4e ;
+      color: white;
+}
+ QPushButton:disabled{
+     background-color: #c24e4e ;
+      color: white;
+}
+
+</string>
+        </property>
+        <property name="text">
+         <string>Statistique</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0">
+       <widget class="QPushButton" name="pb_PDF">
+        <property name="font">
+         <font>
+          <family>Courier New</family>
+          <pointsize>10</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+   border-style: solid;
+   border-width: 2px;
+   border-color: #9999aa;
+   border-radius: 10px;
+   color: black;
+	background-color : qlineargradient(spread:pad, x1:0.07, y1:0.159091, x2:0.552174, y2:0.705, stop:0 rgba(254, 84, 0, 255), stop:1 rgba(255, 255, 255, 255))
+   
+}
+QPushButton:enabled {
+      background-color:qlineargradient(spread:pad, x1:0.07, y1:0.159091, x2:0.552174, y2:0.705, stop:0 rgba(254, 84, 0, 255), stop:1 rgba(255, 255, 255, 255)) ;
+      color: black;
+}
+ QPustButton:pressed{
+    background-color:#c24e4e;
+      color: white;
+}
+QPushButton:hover:!pressed{
+     background-color: #c24e4e ;
+      color: white;
+}
+ QPushButton:disabled{
+     background-color: #c24e4e ;
+      color: white;
+}
+
+</string>
+        </property>
+        <property name="text">
+         <string>Exporter PDF</string>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="0">
+       <widget class="QPushButton" name="pb_tri_diplome">
+        <property name="font">
+         <font>
+          <family>Courier New</family>
+          <pointsize>10</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+   border-style: solid;
+   border-width: 2px;
+   border-color: #9999aa;
+   border-radius: 10px;
+   color: black;
+	background-color : qlineargradient(spread:pad, x1:0.07, y1:0.159091, x2:0.552174, y2:0.705, stop:0 rgba(254, 84, 0, 255), stop:1 rgba(255, 255, 255, 255))
+   
+}
+QPushButton:enabled {
+      background-color:qlineargradient(spread:pad, x1:0.07, y1:0.159091, x2:0.552174, y2:0.705, stop:0 rgba(254, 84, 0, 255), stop:1 rgba(255, 255, 255, 255)) ;
+      color: black;
+}
+ QPustButton:pressed{
+    background-color:#c24e4e;
+      color: white;
+}
+QPushButton:hover:!pressed{
+     background-color: #c24e4e ;
+      color: white;
+}
+ QPushButton:disabled{
+     background-color: #c24e4e ;
+      color: white;
+}
+
+</string>
+        </property>
+        <property name="text">
+         <string>Trier par Diplome</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="0">
+       <widget class="QPushButton" name="pb_chat">
+        <property name="font">
+         <font>
+          <family>Courier New</family>
+          <pointsize>10</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+   border-style: solid;
+   border-width: 2px;
+   border-color: #9999aa;
+   border-radius: 10px;
+   color: black;
+	background-color : qlineargradient(spread:pad, x1:0.07, y1:0.159091, x2:0.552174, y2:0.705, stop:0 rgba(254, 84, 0, 255), stop:1 rgba(255, 255, 255, 255))
+   
+}
+QPushButton:enabled {
+      background-color:qlineargradient(spread:pad, x1:0.07, y1:0.159091, x2:0.552174, y2:0.705, stop:0 rgba(254, 84, 0, 255), stop:1 rgba(255, 255, 255, 255)) ;
+      color: black;
+}
+ QPustButton:pressed{
+    background-color:#c24e4e;
+      color: white;
+}
+QPushButton:hover:!pressed{
+     background-color: #c24e4e ;
+      color: white;
+}
+ QPushButton:disabled{
+     background-color: #c24e4e ;
+      color: white;
+}
+
+</string>
+        </property>
+        <property name="text">
+         <string>chatter</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="chat">
+    <attribute name="title">
+     <string>Chat</string>
+    </attribute>
+    <layout class="QGridLayout" name="gridLayout_3">
+     <item row="0" column="0">
+      <layout class="QHBoxLayout" name="horizontalLayout_3">
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_2">
+         <item>
+          <widget class="QLabel" name="label_3">
+           <property name="text">
+            <string>Nickname:                         </string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="nickname"/>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pb_bind">
+         <property name="font">
+          <font>
+           <family>Courier New</family>
+           <pointsize>10</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton{
+   border-style: solid;
+   border-width: 2px;
+   border-color: #9999aa;
+   border-radius: 10px;
+   color: black;
+	background-color : qlineargradient(spread:pad, x1:0.07, y1:0.159091, x2:0.552174, y2:0.705, stop:0 rgba(254, 84, 0, 255), stop:1 rgba(255, 255, 255, 255))
+   
+}
+QPushButton:enabled {
+      background-color:qlineargradient(spread:pad, x1:0.07, y1:0.159091, x2:0.552174, y2:0.705, stop:0 rgba(254, 84, 0, 255), stop:1 rgba(255, 255, 255, 255)) ;
+      color: black;
+}
+ QPustButton:pressed{
+    background-color:#c24e4e;
+      color: white;
+}
+QPushButton:hover:!pressed{
+     background-color: #c24e4e ;
+      color: white;
+}
+ QPushButton:disabled{
+     background-color: #c24e4e ;
+      color: white;
+}
+
+</string>
+         </property>
+         <property name="text">
+          <string>connect</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item row="1" column="0">
+      <widget class="QTextEdit" name="textEdit"/>
+     </item>
+     <item row="2" column="0">
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <widget class="QLabel" name="label_4">
+         <property name="text">
+          <string>MESSAGE:                         </string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="message"/>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pb_send">
+         <property name="font">
+          <font>
+           <family>Courier New</family>
+           <pointsize>10</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton{
+   border-style: solid;
+   border-width: 2px;
+   border-color: #9999aa;
+   border-radius: 10px;
+   color: black;
+	background-color : qlineargradient(spread:pad, x1:0.07, y1:0.159091, x2:0.552174, y2:0.705, stop:0 rgba(254, 84, 0, 255), stop:1 rgba(255, 255, 255, 255))
+   
+}
+QPushButton:enabled {
+      background-color:qlineargradient(spread:pad, x1:0.07, y1:0.159091, x2:0.552174, y2:0.705, stop:0 rgba(254, 84, 0, 255), stop:1 rgba(255, 255, 255, 255)) ;
+      color: black;
+}
+ QPustButton:pressed{
+    background-color:#c24e4e;
+      color: white;
+}
+QPushButton:hover:!pressed{
+     background-color: #c24e4e ;
+      color: white;
+}
+ QPushButton:disabled{
+     background-color: #c24e4e ;
+      color: white;
+}
+
+</string>
+         </property>
+         <property name="text">
+          <string>envoyer</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
