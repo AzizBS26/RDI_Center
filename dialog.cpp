@@ -431,25 +431,25 @@ void Dialog::on_pb_statistique_clicked()
                   slice->setPen(QPen(Qt::red));}
               if ( place2!=0)
               {
-                  // Add label, explode and define brush for 2nd slice
+
                   QPieSlice *slice1 = series->slices().at(1);
                   //slice1->setExploded();
                   slice1->setLabelVisible();
               }
               if(place3!=0)
               {
-                  // Add labels to rest of slices
+
                   QPieSlice *slice2 = series->slices().at(2);
                   //slice1->setExploded();
-                  slice2->setLabelVisible();// Sets the label visibility for all contours in the collection
+                  slice2->setLabelVisible();
               }
-              // Create the chart widget
+
               QChart *chart = new QChart();
-              // Add data to chart with title and hide legend
+
               chart->addSeries(series); // widget
               chart->setTitle("Les Salaires Des employes"+ QString::number(total));
               chart->legend()->hide();
-              // Used to display the chart
+
               QChartView *chartView = new QChartView(chart);//creation de la fenetre de widget
               chartView->setRenderHint(QPainter::Antialiasing);
               chartView->resize(1000,500);
